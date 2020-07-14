@@ -12,10 +12,10 @@ CCS811 ccs811(CCS811_ADDR);
 
 PulseOximeter pox;
 
-const char* ssid = "LANTAI BAWAH 2";
-const char* password = "ibudini17";
-const char mqtt_server[] = "192.168.0.111";
-const char publishTopic[] = "data/sensors/breath/detection";
+const char* ssid = "";
+const char* password = "";
+const char mqtt_server[] = "";
+const char publishTopic[] = "";
 
 WiFiClient mkr1010Client;
 PubSubClient client(mkr1010Client);
